@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 100px;
+}
+
+a {
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+a:hover {
+  color: azure;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+input, button {
+  display: block;
+  font-size: 22px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 6px;
+  border: solid 1px darkblue;
+  border-radius: 6px;
+}
+
+button {
+  background-color: lightskyblue;
+}
+
+button:hover {
+  background-color: rgb(196, 229, 250);
+  box-shadow: 0 0 2px gray;
+}
+
+button:disabled {
+  background-color: lightgray;
+}
